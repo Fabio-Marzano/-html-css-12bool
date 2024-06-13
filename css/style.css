@@ -30,9 +30,8 @@
 
 .inner-content {
     background-color: green;
-    border: 1px solid black;
-    height: 100px;
-    margin: 10px 0;
+    height: 50px;
+    margin: 0px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +43,10 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.margin {
+    margin-top: 15px;
 }
 
 .col {
